@@ -15,4 +15,7 @@ def test_returns_2_for_2():
     assert fizzbuzz(2) == "2"
 
 def test_returns_buzz_for_5():
-    assert fizzbuzz(5) == "Buzz"    
+    assert fizzbuzz(5) == "Buzz"
+
+def test_returns_fizzbuzz_for_15():
+    assert fizzbuzz(15) == "FizzBuzz"        
